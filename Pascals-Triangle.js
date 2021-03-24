@@ -1,3 +1,6 @@
+/*Write a function that, given a depth n, returns n top rows of Pascal's Triangle
+ flattened into a one-dimensional list/array.*/
+
 function pascalsTriangle(n) {
   var pTriArr = [[1]];
   if (n > 0) {

@@ -1,3 +1,11 @@
+/* Add two English words together!
+
+Implement a class Arith (struct struct Arith{value : &'static str,} in Rust) such that
+
+  //javascript
+  var k = new Arith("three");
+  k.add("seven"); //this should return "ten" */
+
 class Arith{
   constructor(value1) {
     this.value1 = this.convertWordToNum(value1);
